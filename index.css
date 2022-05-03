@@ -8,7 +8,6 @@
 .navbar{
     display: flex;
     padding: 30px;
-    background-color: #DCDCDC;
     width: 100%;
 }
 ul{
@@ -16,18 +15,14 @@ ul{
     align-items: center;
     justify-content: center;
     margin-left: auto;
-    background-color: #DCDCDC;
 }
 ul a{
     margin-left: 50px;
     text-decoration: none;
     color:#000;
-    background-color: #DCDCDC;
-
 }
 ul li{
     list-style: none;
-    background-color: #DCDCDC;
 }
 ul a:hover{
     color:orange;
@@ -47,7 +42,7 @@ ul a:hover{
 #button{
     margin-left:580px;
     margin-top: 10px;
-    background-color:transparent;
+    background-color:#e1ad01;
     padding: 2px;
     font-weight: bold;
     border-color: #e1ad01;
@@ -59,14 +54,15 @@ cursor:grabbing;
 background-color:#e1ad01;
 border: 2px solid #e1ad01;
 }
-
-
 .flame{
     display: flex;
     align-items: center;
 }
 .img{
     margin-left: 300px;
+}
+#box-r{
+    padding-left: 2%;
 }
 #PM{
     font-size: 20px;
